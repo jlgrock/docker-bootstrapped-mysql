@@ -6,9 +6,9 @@ The *tag_name* should be replaced with the following format \<host (optional - a
 
 ## Building the image
 1. Put a sql file called *export.sql* containing your exported data into the folder *data*.
-2. To build the container, execute the following (substituting the tag name).
+2. From the root directory of the git repository, execute the following (substituting the tag name).
 ```
-docker build -t <tag_name> 
+docker build -t <tag_name> .
 ```
 
 ## Deploying the image
